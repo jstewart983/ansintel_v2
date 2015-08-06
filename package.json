@@ -1,0 +1,27 @@
+{
+  "name": "ans_intelligence_2",
+  "version": "0.0.1",
+  "description": "This is the completely rebuilt version of ans intelligence with a more open and scalable architecture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstewart983/ansintel_v2.git"
+  },
+  "author": "Jordan Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jstewart983/ansintel_v2/issues"
+  },
+  "homepage": "https://github.com/jstewart983/ansintel_v2#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.0.4",
+    "morgan": "^1.6.1",
+    "mssql": "^2.1.6"
+  }
+}
